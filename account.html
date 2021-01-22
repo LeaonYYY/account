@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <form class="cgForm">
+        <h3>账号信息</h3>
+        <div class="Name"><label for="name">昵称:</label>
+        <input type="text" placeholder="请输入昵称.." class="nickname" id="name"></div>
+        
+        <div class="Sex">性别： <label for="nan" class="male">男</label><input type="radio" name="sex" id="nan" checked><label for="nv" class="female">女</label><input type="radio" name="sex" id="nv"></div>
+        
+        <div class="Tel"><label for="tel">手机号：</label><input type="text" id="tel" placeholder="请输入正确的11位电话号码.." class="tele"></div>
+        
+        <div class="Code"><label for="code">密码:</label><input type="password" id="code" class="mcode" placeholder="请输入密码.."></div>
+        
+        <input type="button" value="保存" class="summit" onclick="Adjust();">
+    </form>
+    <script src="account.js"></script>
+</body>
+</html>

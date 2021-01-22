@@ -1,0 +1,55 @@
+.cgForm {
+    height: 300px;
+    width: 500px;
+    border: solid 1px black;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-color: rgb(67, 74, 77);
+    border-radius: 10px;
+}
+.Name,.Sex,.Code,.Tel {
+    margin-left: 100px;
+}
+.cgForm h3{
+    text-align: center;
+}
+.Name .nickname{
+    height: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 23px;
+}
+.Sex .male {
+    margin-left: 15px;
+}
+.Sex .female {
+    margin-left: 20px;
+}
+.Sex {
+    margin-bottom: 10px;
+}
+.Tel .tele {
+    height: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.Code .mcode{
+    height: 20px;
+    width: 200px;
+    margin-left: 28px;
+}
+.Sex .male:hover,.Sex .female:hover{
+    cursor: pointer;
+}
+.cgForm .summit{
+    height: 30px;
+    width: 50px;
+    margin-left: 215px;
+    margin-top: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.cgForm .summit:hover{
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+}
